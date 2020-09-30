@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Toolbar.scss'
-import NavigationList from '../Navigation/NavigationList/NavigationList'
-import Logo from '../Navigation/Logo/Logo'
+import NavigationList from './Navigation/NavigationList/NavigationList'
+import Logo from './Navigation/Logo/Logo'
 import Hamburger from '../UI/Hamburger/Hamburger'
 
 
