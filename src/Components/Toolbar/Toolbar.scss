@@ -1,0 +1,39 @@
+.Toolbar{
+    background-color: #333;
+    padding: 2px;
+    display : grid;
+    grid-template-columns: 15% 1fr 1fr 20%;
+    grid-template-rows: none;
+    align-items: center;
+    height: 60px;
+}
+.Logo{
+    grid-column: 2/3;
+    // background-color: aliceblue;
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.Navigation{
+    grid-column: 3/4;
+    align-self: center;
+}
+
+
+// For mobile
+@media (max-width : 499px){
+    .Toolbar{
+        grid-template-columns: 10% 1fr 1fr 10%;
+
+    }
+    .NavigationDesktop {
+        display: none;
+    }
+    .Logo{
+        width: 50px;
+        grid-column: 3/4;
+        justify-self: end;
+        align-self: center;
+    }
+
+}

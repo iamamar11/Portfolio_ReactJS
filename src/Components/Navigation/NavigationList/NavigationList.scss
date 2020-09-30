@@ -1,0 +1,16 @@
+.NavList{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+// For Desktop
+@media (min-width : 500px){
+    .NavList{
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,38 @@
+.SideDraw{
+    width: 280px;
+    background-color: #f3f3f3;
+    height: 100vh;
+    z-index: 200;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease-out;
+    padding: 10px;
+    .logoSideDraw{
+        width: 20%;
+        margin: 0 auto;
+    }
+    .navSideDraw{
+        background-color: #fff;
+        border-radius: 5px;
+        margin: 10px 0px;
+        padding: 10px 0px;
+        a{
+            color: black;
+        }
+    }
+    
+}
+.Open{
+    transform:  translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
+
+@media (min-width : 500px){
+    .SideDraw{
+        display: none;
+    }
+}

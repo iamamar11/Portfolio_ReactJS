@@ -1,0 +1,18 @@
+.Navitem{
+    margin : 0px 10px;
+    list-style: none;
+    padding: 5px 0px;
+    text-align: center;
+    border-bottom: 2px solid #f3f3f3;
+    &:hover{
+        background-color: #f3f3f3;
+    }
+}
+
+// For Desktop
+@media (min-width : 500px){
+    .Navitem{
+        border-bottom: none;
+        text-align: initial;
+    }
+}
