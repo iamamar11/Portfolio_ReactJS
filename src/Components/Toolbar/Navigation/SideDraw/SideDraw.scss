@@ -1,6 +1,6 @@
 .SideDraw{
     width: 280px;
-    background-color: #f3f3f3;
+    background-color: #BD5D38;
     height: 100vh;
     z-index: 200;
     position: fixed;
@@ -31,8 +31,10 @@
     transform: translateX(-100%);
 }
 
+
 @media (min-width : 500px){
     .SideDraw{
-        display: none;
+        width: 15vw;
+        grid-column: 1/2;
     }
 }

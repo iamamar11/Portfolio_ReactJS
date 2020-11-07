@@ -1,0 +1,11 @@
+@media (min-width : 500px){
+    .BodyDisplay{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+    }
+    .Content{
+        width: 85vw;
+        grid-column: 2/3;
+        padding: 10px;
+    }
+}

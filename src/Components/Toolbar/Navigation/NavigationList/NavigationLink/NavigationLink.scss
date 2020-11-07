@@ -13,6 +13,8 @@
 @media (min-width : 500px){
     .Navitem{
         border-bottom: none;
-        text-align: initial;
+        &:hover{
+            background-color: transparent;
+        }
     }
 }

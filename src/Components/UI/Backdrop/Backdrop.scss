@@ -7,3 +7,9 @@
     left: 0;
     background: rgba(0, 0, 0, .50);
 }
+
+@media (min-width : 500px){
+    .Backdrop{
+        display: none;
+    }
+}
