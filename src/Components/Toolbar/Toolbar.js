@@ -3,6 +3,7 @@ import './Toolbar.scss'
 import NavigationList from './Navigation/NavigationList/NavigationList'
 import Logo from './Navigation/Logo/Logo'
 import Hamburger from '../UI/Hamburger/Hamburger'
+import MyImage from '../../Assets/Images/favicon.png'
 
 
 export class Toolbar extends Component {
@@ -12,7 +13,7 @@ export class Toolbar extends Component {
                 <Hamburger toggle = {this.props.toggle}/>
                 
                 <div className = 'Logo'>
-                    <Logo/>
+                    {/* <Logo image = {MyImage}/> */}
                 </div>
 
                 <nav className = 'NavigationDesktop'>

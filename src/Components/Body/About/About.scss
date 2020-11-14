@@ -1,0 +1,34 @@
+.aboutDiv{
+    margin : calc((100vh - 50vh)/2) auto;
+    padding: 0px 40px 0px 20px ;
+    .fullname{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 96px;
+        line-height: 96px;
+        text-transform: uppercase;
+        color: #343A40;
+    }
+    .contactInfo{
+        font-family: 'Saira Extra Condensed', sans-serif;
+        font-size: 24px;
+        line-height: 36px;
+        text-transform: uppercase;
+        color: #6C757D;
+    }
+    .description{
+        font-family: muli, sans-serif;
+        font-weight: 200;
+        font-size: 18px;
+        line-height: 27.6px;
+        margin-top: 27.6px;
+        color: #6C757D;
+        text-align: justify;
+    }
+}
+
+// For Mobile Display with maximun width of 500px
+@media (max-width : 500px){
+    .aboutDiv{
+        margin: 80px 10px;        
+    }
+}

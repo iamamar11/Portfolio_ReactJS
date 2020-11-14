@@ -1,0 +1,48 @@
+@import '../../../Assets/Styles/colors.scss';
+
+.Education{
+    margin: 150px auto;
+    padding: 0px 40px 0px 20px ;
+    .HeadingEducation{
+        font-size: 56px;
+        line-height: 67.2px;
+        color: var(--Heading);
+        font-family: 'Saira Extra Condensed', sans-serif;
+        text-transform: uppercase;
+    }
+    .SectionEducation{
+        color: #343A40;
+        font-family: 'Saira Extra Condensed', sans-serif;
+        text-transform: uppercase;
+        font-size: 32px;
+        line-height: 38.4px;
+        margin: 40px auto;
+        .articleEducation{
+            display: flex;
+            justify-content: space-between;
+            .duration{
+                font-family: muli, sans-serif;
+                text-transform: initial;
+                font-size: 16px;
+                line-height: 24px;
+                color: var(--Highlight);
+            }
+        }
+        .EducationLevel{
+            font-size: 24px;
+            font-weight: medium;
+            color: var(--Description);
+        }
+    }
+}
+
+@media(max-width : 500px){
+    .Education{
+        margin: 80px auto;
+    }
+    .SectionEducation{
+        .articleEducation{
+            flex-direction: column;
+        }
+    }
+}

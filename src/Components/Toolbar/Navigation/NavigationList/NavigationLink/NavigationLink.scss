@@ -3,10 +3,10 @@
     list-style: none;
     padding: 5px 0px;
     text-align: center;
-    border-bottom: 2px solid #f3f3f3;
-    &:hover{
-        background-color: #f3f3f3;
-    }
+    letter-spacing: 2px;
+}
+.active{
+    color: white;
 }
 
 // For Desktop

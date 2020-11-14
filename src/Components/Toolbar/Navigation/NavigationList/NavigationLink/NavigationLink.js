@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './NavigationLink.scss'
 
 const NavigationLink = (props) => {
     return (
-        <Link to = {props.link}>
+        <NavLink exact to = {props.link}>
             <li className = 'Navitem'>{props.children}</li>
-        </Link>
+        </NavLink>
     )
 }
 

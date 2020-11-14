@@ -1,0 +1,13 @@
+.socialList{
+    display: flex;
+    justify-content : space-between;
+    list-style: none;
+    margin-top: 27.6px;
+    width: 250px
+}
+
+@media (max-width : 500px){
+    .socialList{
+        margin: 30px auto 0px auto;
+    }
+}

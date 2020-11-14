@@ -1,0 +1,16 @@
+.backgroundDiv{
+    background-color: #495057;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    &:hover{
+        background-color: #BD5D38;
+    }
+    .socialLink{
+        i{
+            z-index: 10;
+            color: white;
+            margin: 24%;
+        }
+    }
+}

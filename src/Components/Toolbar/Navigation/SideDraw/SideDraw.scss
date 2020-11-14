@@ -8,20 +8,25 @@
     left: 0;
     transition: 0.3s ease-out;
     padding: 10px;
+    .sideDrawSection{
+        margin: 0px 0px;
+    }
     .logoSideDraw{
-        width: 20%;
+        width: 60%;
         margin: 0 auto;
+        
     }
     .navSideDraw{
-        background-color: #fff;
+        // background-color: #fff;
+        font-family: muli, sans-serif;
+        font-weight: bold;
         border-radius: 5px;
         margin: 10px 0px;
         padding: 10px 0px;
         a{
-            color: black;
+            margin: 5px 0px;
         }
-    }
-    
+    }    
 }
 .Open{
     transform:  translateX(0);
@@ -31,10 +36,14 @@
     transform: translateX(-100%);
 }
 
-
+// Desktop
 @media (min-width : 500px){
     .SideDraw{
-        width: 15vw;
+        width: 19vw;
         grid-column: 1/2;
+        .sideDrawSection{
+            height: 25vh;
+            margin: calc((100vh - 55vh)/2) auto;
+        }
     }
 }

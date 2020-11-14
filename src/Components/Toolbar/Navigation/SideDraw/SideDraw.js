@@ -2,6 +2,7 @@ import React from 'react'
 import Backdrop from '../../../UI/Backdrop/Backdrop'
 import Logo from '../Logo/Logo'
 import NavigationList from '../NavigationList/NavigationList'
+import MyImage from '../../../../Assets/Images/portfolio.jpg'
 import './SideDraw.scss'
 
 const SideDraw = ( props ) => {
@@ -16,13 +17,14 @@ const SideDraw = ( props ) => {
         <React.Fragment>
             <Backdrop clicked = {props.close} show = {props.show}/>
             <div className = {classAttached.join(' ')}>
-                <div className = 'logoSideDraw'>
-                    <Logo />
-                </div>
-
-                <nav className = 'navSideDraw'>
-                    <NavigationList />
-                </nav>
+                <section className='sideDrawSection'>
+                    <div className = 'logoSideDraw'>
+                        <Logo image = {MyImage}/>
+                    </div>
+                    <nav className = 'navSideDraw'>
+                        <NavigationList />
+                    </nav>
+                </section>
             </div>
         </React.Fragment>
     )

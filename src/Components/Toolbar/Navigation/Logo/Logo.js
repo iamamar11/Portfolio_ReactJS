@@ -1,11 +1,11 @@
 import React from 'react'
-import LogoImg from '../../../../Assets/Images/favicon.png';
+// import LogoImg from '../../../../Assets/Images/portfolio.jpg';
 import './Logo.scss'
 
-const Logo = () =>{
+const Logo = (props) =>{
     return (
         <>
-            <img src = {LogoImg} alt='logo' className = 'logo'/>
+            <img src = {props.image} alt='logo' className = 'logo'/>
         </>
     )
 }

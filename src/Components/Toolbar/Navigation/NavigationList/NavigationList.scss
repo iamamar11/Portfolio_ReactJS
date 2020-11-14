@@ -4,8 +4,11 @@
     flex-direction: column;
 }
 a{
-    color: white;
+    color: rgba($color: #fff, $alpha: 0.50);
     text-decoration: none;
+    &:hover{
+        color: rgba($color: #fff, $alpha: 0.75);
+    }
 }
 
 // For Desktop
