@@ -2,7 +2,7 @@ import React from 'react'
 import Backdrop from '../../../UI/Backdrop/Backdrop'
 import Logo from '../Logo/Logo'
 import NavigationList from '../NavigationList/NavigationList'
-import MyImage from '../../../../Assets/Images/portfolio.jpg'
+import MyImage from '../../../../Assets/Images/ProfilePicCopy.jpg'
 import './SideDraw.scss'
 
 const SideDraw = ( props ) => {
