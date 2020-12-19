@@ -10,30 +10,6 @@
         line-height: 67.2px;
         text-transform: uppercase;
     }
-    .ProjectSection{
-        margin: 10px 0px;
-    }
-    
-    .ProjectName{
-        font-family: 'Saira Extra Condensed', sans-serif;
-        font-size: 32px;
-        line-height: 32px;
-        text-transform: uppercase;
-        margin: 20px 0px;
-        a{
-            color: var(--Highlight);
-        }
-    }
-    .ProjectList{
-        list-style: none;
-    }
-    .ProjectDescription{
-        margin: 0px 20px;
-        color: var(--Description);
-        font-family: 'muli', sans-serif;
-        font-size: 16px;
-        line-height: 24px;
-    }
 }
 @media(max-width : 500px){
     .Project{

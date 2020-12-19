@@ -1,0 +1,22 @@
+@import '../../../../Assets/Styles/colors.scss';
+.ProjectSection{
+    margin: 10px 0px;
+}
+
+.ProjectName{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    a{
+        color: var(--Highlight);
+        transition: .5s;
+        &:hover{
+            text-shadow: 2px 2px 3px lightgray;
+        }
+    }
+}
+.ProjectList{
+    list-style: none;
+}
