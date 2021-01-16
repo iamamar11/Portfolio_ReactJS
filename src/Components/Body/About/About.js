@@ -1,6 +1,7 @@
 import React from 'react'
 import SocialList from '../../UI/SocialList/SocialList'
 import './About.scss'
+import resume from '../../../Assets/Amar.pdf';
 
 const About = () => {
     return (
@@ -13,6 +14,10 @@ const About = () => {
             </span>
             <h4 className='description'>Enthusiastic and Detail-oriented Web Developer, specializing in Front end development with React library. Good practical and Supportive skill to work as a team player. Looking forward to join reputative company to start my professional career as a web developer. Eager to learn more about web development technologies.  </h4>
             <SocialList />
+            
+            <button className='downloadResume'>
+            <a href={resume} download >Download Resume</a>
+            </button>
         </div>
     )
 }

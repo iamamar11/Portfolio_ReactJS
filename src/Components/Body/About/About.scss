@@ -30,6 +30,16 @@
         color: #6C757D;
         text-align: justify;
     }
+    .downloadResume{
+        background-color: transparent;
+        margin-top: 20px;
+        border: 2px solid #BD5D38;
+        padding:  8px 10px;
+        a{
+            color: #BD5D38;
+            padding:  8px 10px;
+        }
+    }
 }
 
 // For Mobile Display with maximun width of 500px
