@@ -13,7 +13,8 @@
         color: var(--Highlight);
         transition: .5s;
         &:hover{
-            text-shadow: 2px 2px 3px lightgray;
+            text-shadow: 2px 2px 3px gray;
+            text-decoration: underline;
         }
     }
 }

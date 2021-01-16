@@ -7,6 +7,11 @@
         line-height: 96px;
         text-transform: uppercase;
         color: #343A40;
+        transition: .5s;
+        width: fit-content;
+        &:hover{
+            text-shadow: 2px 2px 3px gray;
+        }
     }
     .contactInfo{
         font-family: 'Saira Extra Condensed', sans-serif;
@@ -14,6 +19,7 @@
         line-height: 36px;
         text-transform: uppercase;
         color: #6C757D;
+
     }
     .description{
         font-family: muli, sans-serif;
