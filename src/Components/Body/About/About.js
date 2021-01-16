@@ -15,7 +15,7 @@ const About = () => {
             <h4 className='description'>Enthusiastic and Detail-oriented Web Developer, specializing in Front end development with React library. Good practical and Supportive skill to work as a team player. Looking forward to join reputative company to start my professional career as a web developer. Eager to learn more about web development technologies.  </h4>
             <SocialList />
             <div className='downloadSection'>
-                <button className='downloadResume'><a href={resume} download ></a>Download Resume</button>
+                <a href={resume} download ><button className='downloadResume'>Download Resume</button></a>
             </div>
         </div>
     )
