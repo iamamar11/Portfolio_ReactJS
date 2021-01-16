@@ -42,6 +42,9 @@ export class Layout extends Component {
         }
     }
     componentDidMount(){
+        // for initial render to hide sideDraw for mobile user and display for desktop users
+        this.widthHandler()
+        
         // after component is mounted that event listner is running in callback loop and keeps on listening if user is on desktop or phone
         window.addEventListener("resize", this.widthHandler);
     }
