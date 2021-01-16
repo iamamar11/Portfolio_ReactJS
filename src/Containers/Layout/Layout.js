@@ -19,11 +19,14 @@ export class Layout extends Component {
     constructor(props){
         super()
         this.state = {
-            showSideDraw : window.innerHeight >= 500,
+            showSideDraw : true,
         }
     }
     ToggleSideDraw = () => {
-        this.setState({ showSideDraw : !this.state.showSideDraw });        
+        // if user is on phone than toggle side draw else do nothing
+        if(window.innerWidth <= 500){
+            this.setState({ showSideDraw : !this.state.showSideDraw });        
+        }
     }
     widthHandler = () => {
         if(window.innerWidth >= 500){
@@ -39,7 +42,7 @@ export class Layout extends Component {
         }
     }
     componentDidMount(){
-        this.widthHandler();
+        // after component is mounted that event listner is running in callback loop and keeps on listening if user is on desktop or phone
         window.addEventListener("resize", this.widthHandler);
     }
 
@@ -48,10 +51,8 @@ export class Layout extends Component {
             <React.Fragment>
                 <Router>
                 <Toolbar toggle = {this.ToggleSideDraw}/>
+
                 <div className = 'BodyDisplay'>
-
-                {/* Using Router module here */}
-
                     <SideDraw show = {this.state.showSideDraw} close = {this.ToggleSideDraw}/>
                     <section className = "Content">
                         <Switch>

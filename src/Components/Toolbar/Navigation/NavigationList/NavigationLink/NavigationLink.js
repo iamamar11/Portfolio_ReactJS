@@ -6,7 +6,7 @@ import './NavigationLink.scss'
 const NavigationLink = (props) => {
     return (
         <NavLink exact to = {props.link}>
-            <li className = 'Navitem'>{props.children}</li>
+            <li className = 'Navitem' onClick={props.clicked}>{props.children}</li>
         </NavLink>
     )
 }

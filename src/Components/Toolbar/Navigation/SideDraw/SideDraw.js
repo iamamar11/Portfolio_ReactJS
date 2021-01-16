@@ -22,7 +22,7 @@ const SideDraw = ( props ) => {
                         <Logo image = {MyImage}/>
                     </div>
                     <nav className = 'navSideDraw'>
-                        <NavigationList />
+                        <NavigationList clicked = {props.close} />
                     </nav>
                 </section>
             </div>

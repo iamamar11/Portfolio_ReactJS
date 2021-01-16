@@ -12,13 +12,13 @@ export class Toolbar extends Component {
             <header className = 'Toolbar'>
                 <Hamburger toggle = {this.props.toggle}/>
                 
-                <div className = 'Logo'>
-                    {/* <Logo image = {MyImage}/> */}
+                {/* <div className = 'Logo'>
+                    <Logo image = {MyImage}/>
                 </div>
 
                 <nav className = 'NavigationDesktop'>
                     <NavigationList/>
-                </nav>
+                </nav> */}
             </header>
         )
     }
