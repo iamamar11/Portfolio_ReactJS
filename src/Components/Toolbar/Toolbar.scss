@@ -24,6 +24,8 @@
     .Toolbar{
         display: grid;
         grid-template-columns: 10% 1fr 1fr 10%;
+        position: sticky;
+        top: 0;
     }
     .NavigationDesktop {
         display: none;
