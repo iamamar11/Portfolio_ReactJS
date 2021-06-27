@@ -30,12 +30,12 @@ export class Layout extends Component {
     }
     widthHandler = () => {
         if(window.innerWidth >= 500){
-            console.log("DESKTOP")
+            // console.log("DESKTOP")
             this.setState((prevState)=>{
                 return { showSideDraw : true }
             });
         }else{
-            console.log("PHONE")
+            // console.log("PHONE")
             this.setState((prevState)=>{
                 return { showSideDraw : false }
             });
@@ -44,7 +44,7 @@ export class Layout extends Component {
     componentDidMount(){
         // for initial render to hide sideDraw for mobile user and display for desktop users
         this.widthHandler()
-        
+
         // after component is mounted that event listner is running in callback loop and keeps on listening if user is on desktop or phone
         window.addEventListener("resize", this.widthHandler);
     }
